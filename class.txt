@@ -1,0 +1,47 @@
+class Cliente{
+        public $nome;
+        public $telefone;
+        public $cpf;
+        public $data_nascimento;
+        public $email;
+}
+
+====================================
+
+class Venda{
+        public $codigo;
+        public $data;
+        public $atendente;
+        public $valor;
+        public $forma_pagamento;
+}
+
+====================================
+
+class Produto{
+        public $nome;
+        public $valor;
+        public $marca;
+        public $data_fabricacao;
+        public $data_validade;
+}
+
+====================================
+
+class Aluno{
+        public $nome;
+	public $ra;
+        public $idade;
+        public $telefone;
+        public $cidade;
+}
+
+====================================
+
+class Curso{
+        public $nome;
+        public $tipo;
+        public $carga_horaria;
+        public $quantidade_alunos;
+        public $quantidade_professores;
+}
